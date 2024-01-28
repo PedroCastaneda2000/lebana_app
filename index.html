@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <script src="app.js" type="module" defer></script>
+    <title>Document</title>
+  </head>
+  <body>
+    <header id="headerSection" class="header__mobile">
+      <nav class="header__mobile-nav">
+        <div class="nav__mobile-menu">
+          <span class="menu-line"></span>
+          <span class="menu-line"></span>
+          <span class="menu-line"></span>
+        </div>
+        <div class="nav__logo">
+          <h1>Lebana</h1>
+        </div>
+        <ul class="nav__list">
+          <li class="nav__list-item">
+            <a href="" class="nav__list-link"
+              ><img src="./assets/bag-icon.png" alt=""
+            /></a>
+          </li>
+        </ul>
+      </nav>
+
+      <section id="heroSection" class="hero">
+        <div class="hero__content-wrapper">
+          <h1 class="hero__title">build an indoor oasis</h1>
+          <p class="hero__description">
+            Lorem ipsum dolor sit amet consectetur. Ullamcorper magna quis
+            hendrerit mattis in. Mauris orci commodo mattis nisl ut mi justo
+            amet.
+          </p>
+        </div>
+        <div class="hero__canvas-wrapper">
+          <img class="hero__canvas" src="./assets/hero_canvas.png" alt="" />
+        </div>
+        <!-- <div class="hero__button-wrapper">
+          <button class="hero__button">All Plants</button>
+        </div> -->
+      </section>
+    </header>
+
+    <header id="headerSection" class="header__desktop">
+      <nav id="headerNav" class="header__nav">
+        <div class="nav__logo">
+          <h1>Lebana</h1>
+        </div>
+        <div id="navListWrapper" class="nav__list-wrapper">
+          <ul id="navList" class="nav__list">
+            <li class="nav__list-item">
+              <a href="" class="nav__list-link">HOME</a>
+            </li>
+            <li class="nav__list-item">
+              <a href="" class="nav__list-link">PLANTS</a>
+            </li>
+            <li class="nav__list-item">
+              <a href="" class="nav__list-link">ABOUT US</a>
+            </li>
+          </ul>
+          <ul class="nav__list">
+            <li class="nav__list-item">
+              <a href="" class="nav__list-link"
+                ><img src="./assets/heart-black-icon.png" alt=""
+              /></a>
+            </li>
+            <div class="nav__line"></div>
+            <li class="nav__list-item">
+              <button href="" class="nav__list-link nav__search-icon">
+                <img
+                  id="searchBtn"
+                  src="./assets/search-black-icon.png"
+                  alt=""
+                />
+              </button>
+            </li>
+          </ul>
+        </div>
+      </nav>
+      <!-- Change the class names to fit BEM -->
+      <nav id="headerSearchNav" class="header__search-nav">
+        <div class="nav__logo">
+          <h1>Lebana</h1>
+        </div>
+        <div class="nav__search-wrapper">
+          <div class="line"></div>
+
+          <div class="nav__list-link nav__search-icon">
+            <img src="./assets/search-white-icon.png" alt="" />
+          </div>
+          <!-- <p class="search__description">
+            Search Book, author, series, ISBN...
+          </p> -->
+          <fieldset class="searchup__form">
+            <input
+              id="searchInput"
+              type="text"
+              maxlength="50"
+              placeholder="Search Book, author, series, ISBN..."
+              required
+            />
+          </fieldset>
+        </div>
+        <button id="cancelBtn" class="nav__list-link nav__cancel-icon">
+          <img src="./assets/cancel-white-icon.png" alt="" />
+        </button>
+      </nav>
+
+      <!-- <section id="heroSection" class="hero">
+        <div class="hero__content-wrapper">
+          <h1 class="hero__title">
+            EXPLORE NEW <br />
+            DIMENSIONS OF <br />
+            STORYTELLING
+          </h1>
+          <p class="hero__description">
+            Lorem ipsum dolor sit amet consectetur. Ullamcorper magna quis
+            hendrerit mattis in. Mauris orci commodo mattis nisl ut mi justo
+            amet.
+          </p>
+
+          <button class="hero__button">Explore Collection</button>
+        </div>
+      </section> -->
+    </header>
+
+    <section class="promotionals">
+      <div class="promotionals__content-wrapper">
+        <article class="promotionals-card">
+          <img src="./assets/delivery.svg" alt="" />
+          <h2>Free Green Delivery</h2>
+        </article>
+        <article class="promotionals-card">
+          <img src="./assets/savings.svg" alt="" />
+          <h2>Bloom With Savings</h2>
+        </article>
+        <article class="promotionals-card">
+          <img src="./assets/parenthood.svg" alt="" />
+          <h2>Plant Parenthood</h2>
+        </article>
+        <article class="promotionals-card">
+          <img src="./assets/worldwide.svg" alt="" />
+          <h2>Worldwide Selection</h2>
+        </article>
+      </div>
+    </section>
+
+    <section class="categories">
+      <div class="categories__content-wrapper">
+        <article class="categories-card">
+          <button class="categories__button">
+            <img src="./assets/all_plants_canvas.png" alt="" />
+            <h2>All Plants</h2>
+          </button>
+        </article>
+        <article class="categories-card">
+          <button class="categories__button">
+            <img src="./assets/pet_friendly_canvas.png" alt="" />
+            <h2>Pet-friendly</h2>
+          </button>
+        </article>
+        <article class="categories-card">
+          <button class="categories__button">
+            <img src="./assets/for_beginners_canvas.png" alt="" />
+            <h2>For Beginners</h2>
+          </button>
+        </article>
+        <article class="categories-card">
+          <button class="categories__button">
+            <img src="./assets/nutri_purify_canvas.png" alt="" />
+            <h2>Nutri-Purify</h2>
+          </button>
+        </article>
+      </div>
+    </section>
+
+    <section class="featured">
+      <article class="featured-card">
+        <h1>Nature's</h1>
+        <h1>valentines</h1>
+        <div class="featured__content-wrapper">
+          <h2>Rose Rubiginosa</h2>
+          <p>$59.99</p>
+          <div class="featured__ratings"></div>
+        </div>
+        <div class="featured__canvas-wrapper">
+          <img
+            class="banner-left__canvas"
+            src="./assets/hero_bg_canvas.png"
+            alt=""
+          />
+        </div>
+        <div class="featured__user-wrapper">
+          <p>Rose | Burgundy</p>
+          <div class="featured__colors-wrapper">
+            <button class="color-option"></button>
+            <button class="color-option"></button>
+            <button class="color-option"></button>
+            <button class="color-option"></button>
+            <button class="color-option"></button>
+          </div>
+          <button class="featured__button">Add to Bag</button>
+        </div>
+      </article>
+    </section>
+  </body>
+</html>
